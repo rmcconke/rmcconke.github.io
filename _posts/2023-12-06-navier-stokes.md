@@ -28,7 +28,9 @@ The format is as follows:
 Quantity
 
 $$\text{Vector calculus notation}$$
+
 $$\text{Einstein notation}$$
+
 $$\text{Cartesian components}$$
 
 ### Tensors
@@ -154,14 +156,16 @@ $$\tau = \zeta (\vec{\nabla}\cdot \vec{V})I + \mu [\vec{\nabla}\vec{V} + (\vec{\
 
 $$\tau_{ij} = \zeta \frac{\partial v_k}{\partial x_k}\delta_{ij} + \mu \left[\frac{\partial v_j}{\partial x_i}  + \frac{\partial v_i}{\partial x_j} - \frac{2}{3}\frac{\partial v_k}{\partial x_k} \delta_{ij}\right]$$
 
-$$\tau = \zeta \begin{bmatrix}
+$$\begin{align*}\tau = &\zeta \begin{bmatrix}
     \left(\frac{\partial u}{\partial x} + \frac{\partial v}{\partial y} + \frac{\partial w}{\partial z}\right) & 0 & 0 \\ 0 & \left(\frac{\partial u}{\partial x} + \frac{\partial v}{\partial y} + \frac{\partial w}{\partial z}\right) & 0 \\
     0 & 0 & \left(\frac{\partial u}{\partial x} + \frac{\partial v}{\partial y} + \frac{\partial w}{\partial z}\right)
-\end{bmatrix} + \mu \begin{bmatrix}
-    2\frac{\partial u}{\partial x} - \frac{2}{3}\left(\frac{\partial u}{\partial x} + \frac{\partial v}{\partial y} + \frac{\partial w}{\partial z}\right) & \frac{\partial v}{\partial x} + \frac{\partial u}{\partial y} & + \frac{\partial w}{\partial x} + \frac{\partial u}{\partial z} \\
+\end{bmatrix} \\
+&+ \mu \begin{bmatrix}
+    2\frac{\partial u}{\partial x} - \frac{2}{3}\left(\frac{\partial u}{\partial x} + \frac{\partial v}{\partial y} + \frac{\partial w}{\partial z}\right) & \frac{\partial v}{\partial x} + \frac{\partial u}{\partial y} &  \frac{\partial w}{\partial x} + \frac{\partial u}{\partial z} \\
     \frac{\partial u}{\partial y} + \frac{\partial v}{\partial x}  & 2\frac{\partial v}{\partial y} - \frac{2}{3}\left(\frac{\partial u}{\partial x} + \frac{\partial v}{\partial y} + \frac{\partial w}{\partial z}\right) & \frac{\partial w}{\partial y} + \frac{\partial v}{\partial z}  \\
     \frac{\partial u}{\partial z} + \frac{\partial w}{\partial x}  & \frac{\partial v}{\partial z} + \frac{\partial w}{\partial y} & 2\frac{\partial w}{\partial z} - \frac{2}{3}\left(\frac{\partial u}{\partial x} + \frac{\partial v}{\partial y} + \frac{\partial w}{\partial z}\right)
-\end{bmatrix}$$
+\end{bmatrix}
+\end{align*}$$
 
 ### Compressible continuity equation
 
