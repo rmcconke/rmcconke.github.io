@@ -18,7 +18,8 @@ latest_posts: false  # includes a list of the newest posts
 selected_papers: true # includes a list of papers marked as "selected={true}"
 social: true  # includes social icons at the bottom of the page
 ---
-![image](assets/img/ezgif.com-gif-maker_best_0.gif)
+<img src="assets/img/ezgif.com-gif-maker_best_0.gif" alt="vortex shedding from a cube" style="width: 100px; height: auto;">
+
 
 I graduated from the University of Alberta in 2019 with a Bachelor's of Science in Mechanical Engineering (co-op). Pursing an interest in turbulence and computational fluid dynamics (CFD), I then began a Master's degree at the University of Waterloo. In my Master's research, I was focused on simulating a new type of wind turbine which uses vortex induced vibration (VIV) to generate energy. Then, I direct transferred to a PhD in 2020. My PhD was focused on developing new turbulence models using machine learning. I completed a 6 month visit at the University of Manchester in 2022-2023, where I focused on data-driven turbulence modelling on complex 3D flows. After completing my PhD in 2024, I have recently started a Postdoc at MIT in Tess Smidt's [atomic architects](https://atomicarchitects.com/) group. More to come!
 
